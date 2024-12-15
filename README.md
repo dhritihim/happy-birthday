@@ -214,7 +214,7 @@
         <h1>Happy Birthday!</h1>
         <h2>ALU ! </h2>
         <p class="message">Yo<br>
-            Happy birthday, you absolute legend! 🎉 Another year of you being the shy, socially awkward genius we all tolerate (and secretly admire). Honestly, it sucks that I can’t be there to celebrate with you this year, but don’t think you’re off the hook! Just because we’re in different cities doesn’t mean you get to spend your birthday hiding in your room like a hermit.
+            Happy birthday, you absolute 🫨😶‍🌫️! 🎉 Another year of you being the shy, socially awkward genius we all tolerate . Honestly, it sucks that I can’t be there to celebrate with you this year, but don’t think you’re off the hook! Just because we’re in different cities doesn’t mean you get to spend your birthday hiding in your room like a hermit.
 
 Bro, it’s your day—ditch the shy guy routine, step out, and make some moves! Go meet some girls (and no, I don’t mean scrolling through Instagram). You’ve got the charm, the brains, and, well, you have me as your hype man, even from a distance. So, no excuses!
 
