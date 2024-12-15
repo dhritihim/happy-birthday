@@ -23,6 +23,8 @@
             border-radius: 15px;
             padding: 30px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 600px;
         }
 
         h1 {
@@ -125,43 +127,36 @@
         .cracker:nth-child(1) {
             left: 10%;
             top: 20%;
-            background: radial-gradient(circle, yellow, orange, red);
             animation-delay: 0.5s;
         }
         .cracker:nth-child(2) {
             left: 30%;
             top: 40%;
-            background: radial-gradient(circle, cyan, blue, navy);
             animation-delay: 1s;
         }
         .cracker:nth-child(3) {
             left: 50%;
             top: 10%;
-            background: radial-gradient(circle, rgb(4, 236, 4), rgb(11, 106, 11), rgb(6, 65, 6));
             animation-delay: 1.5s;
         }
         .cracker:nth-child(4) {
             left: 70%;
             top: 30%;
-            background: radial-gradient(circle, violet, purple, darkviolet);
             animation-delay: 2s;
         }
         .cracker:nth-child(5) {
             left: 90%;
             top: 50%;
-            background: radial-gradient(circle, pink, hotpink, red);
             animation-delay: 2.5s;
         }
         .cracker:nth-child(6) {
             left: 20%;
             top: 70%;
-            background: radial-gradient(circle, rgb(255, 102, 0), rgb(187, 187, 9), rgb(251, 215, 14));
             animation-delay: 1.2s;
         }
         .cracker:nth-child(7) {
             left: 80%;
             top: 80%;
-            background: radial-gradient(circle, aqua, turquoise, teal);
             animation-delay: 1.8s;
         }
 
@@ -177,6 +172,45 @@
             100% {
                 opacity: 0;
                 transform: scale(8);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .message {
+                font-size: 1rem;
+            }
+            .balloon {
+                width: 50px;
+                height: 70px;
+            }
+            .container {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .message {
+                font-size: 0.9rem;
+            }
+            .balloon {
+                width: 40px;
+                height: 60px;
+            }
+            .container {
+                padding: 10px;
             }
         }
     </style>
@@ -201,16 +235,12 @@
     <div class="container">
         <h1>Happy Birthday!</h1>
         <h2> ALU! </h2>
-        <p class="message">Yo
-Happy birthday, you absolute legend! 🎉 Another year of you being the shy, socially awkward genius we all tolerate (and secretly admire). Honestly, it sucks that I can’t be there to celebrate with you this year, but don’t think you’re off the hook! Just because we’re in different cities doesn’t mean you get to spend your birthday hiding in your room like a hermit.
-
-Bro, it’s your day—ditch the shy guy routine, step out, and make some moves! Go meet some girls (and no, I don’t mean scrolling through Instagram). You’ve got the charm, the brains, and, well, you have me as your hype man, even from a distance. So, no excuses!
-
-This year, I want you to forget all the awkwardness, embrace your inner alpha, and make the most of it. We’ll celebrate together properly when we meet, but until then, promise me you’ll at least do something exciting. And if not, just know I’ll roast you for it later.
-
-Here’s to more laughs, crazy moments, and you finally stepping out of your comfort zone. Happy birthday, bro! I miss you, but that doesn’t mean I’ll stop teasing you.
-
-Cheers,!</p>
+        <p class="message">
+            Yo<br>
+            Happy birthday, you absolute legend! 🎉 Another year of you being the shy, socially awkward genius we all tolerate (and secretly admire). Honestly, it sucks that I can’t be there to celebrate with you this year, but don’t think you’re off the hook! Just because we’re in different cities doesn’t mean you get to spend your birthday hiding in your room like a hermit.<br>
+            <br>
+            Bro, it’s your day—ditch the shy guy routine, step out, and make some moves! You’ve got the charm, the brains, and, well, you have me as your hype man. Cheers! 🎉
+        </p>
     </div>
 </body>
 </html>
