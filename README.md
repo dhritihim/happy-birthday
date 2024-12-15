@@ -201,7 +201,16 @@
     <div class="container">
         <h1>Happy Birthday!</h1>
         <h2> ALU! </h2>
-        <p class="message">Wishing you all the happiness and success in the world. Have an amazing day filled with love, laughter, and surprises!</p>
+        <p class="message">Yo
+Happy birthday, you absolute legend! 🎉 Another year of you being the shy, socially awkward genius we all tolerate (and secretly admire). Honestly, it sucks that I can’t be there to celebrate with you this year, but don’t think you’re off the hook! Just because we’re in different cities doesn’t mean you get to spend your birthday hiding in your room like a hermit.
+
+Bro, it’s your day—ditch the shy guy routine, step out, and make some moves! Go meet some girls (and no, I don’t mean scrolling through Instagram). You’ve got the charm, the brains, and, well, you have me as your hype man, even from a distance. So, no excuses!
+
+This year, I want you to forget all the awkwardness, embrace your inner alpha, and make the most of it. We’ll celebrate together properly when we meet, but until then, promise me you’ll at least do something exciting. And if not, just know I’ll roast you for it later.
+
+Here’s to more laughs, crazy moments, and you finally stepping out of your comfort zone. Happy birthday, bro! I miss you, but that doesn’t mean I’ll stop teasing you.
+
+Cheers,!</p>
     </div>
 </body>
 </html>
