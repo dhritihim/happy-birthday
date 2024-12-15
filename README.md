@@ -21,9 +21,11 @@
             text-align: center;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 15px;
-            padding: 20px;
+            padding: 10px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-            max-width: 90%;
+            width: 600px; /* Fixed width for desktop view */
+            max-width: calc(100% - 20px); /* Responsive for mobile */
+            margin: 10px;
         }
 
         h1 {
@@ -43,13 +45,12 @@
             color: #ddd;
         }
 
-        .balloons {
+        .balloons, .sky-crackers {
             position: absolute;
             width: 100%;
             height: 100%;
             top: 0;
             left: 0;
-            z-index: -1;
             overflow: hidden;
         }
 
@@ -100,16 +101,6 @@
             100% {
                 transform: translateY(0);
             }
-        }
-
-        .sky-crackers {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            top: 0;
-            left: 0;
-            z-index: -2;
         }
 
         .cracker {
@@ -171,8 +162,9 @@
             }
 
             .container {
-                padding: 10px;
-                max-width: 95%;
+                padding: 5px;
+                max-width: calc(100% - 40px); /* Adjust for smaller padding on mobile */
+                width: auto;
             }
         }
 
